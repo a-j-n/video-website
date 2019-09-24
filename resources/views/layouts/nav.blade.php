@@ -38,9 +38,9 @@
                     <li class="nav-item">
                         <a href="{{ url('/login') }}" class="nav-link">login</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="{{ url('/register') }}" class="nav-link">register</a>
-                    </li>
+{{--                    <li class="nav-item">--}}
+{{--                        <a href="{{ url('/register') }}" class="nav-link">register</a>--}}
+{{--                    </li>--}}
                 @else
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

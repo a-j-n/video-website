@@ -3,6 +3,7 @@
 @section('title' , 'register')
 
 @section('content')
+    @if(1 == 2)
     <div class="container" style="margin-top: 120px">
         <div class="row justify-content-center">
             <div class="col-md-8">
@@ -86,4 +87,9 @@
             </div>
         </div>
     </div>
+    @else
+        <div class="container" style="margin-top: 120px;">
+            <h2>Registration is closed for now comeback later</h2>
+        </div>
+    @endif
 @endsection
