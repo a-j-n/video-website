@@ -29,6 +29,7 @@ class BackEndController extends Controller
         if(!empty($with)){
             $rows = $rows->with($with);
         }
+
         $rows = $rows->paginate(10);
         $moduleName = $this->pluralModelName();
         $sModuleName = $this->getModelName();

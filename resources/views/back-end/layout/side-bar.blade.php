@@ -39,8 +39,8 @@
                 </a>
             </li>
 
-            <li class="nav-item {{ is_active('playlist') }}">
-                <a  class="nav-link"  href="{{ route('playlist.index') }}">
+            <li class="nav-item {{ is_active('playlists') }}">
+                <a  class="nav-link"  href="{{ route('playlists.index') }}">
                     <i class="material-icons">playlist_play</i>
                     <p>Playlists</p>
                 </a>

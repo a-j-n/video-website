@@ -20,7 +20,7 @@ Route::namespace('BackEnd')->prefix('admin')->middleware('admin')->group(functio
     Route::resource('tags', 'Tags')->except(['show']);
     Route::resource('pages', 'Pages')->except(['show']);
     Route::resource('videos', 'Videos')->except(['show']);
-    Route::resource('playlist','Playlist')->except(['show']);
+    Route::resource('playlists','Playlist')->except(['show']);
     Route::resource('messages', 'Messages')->only(['index' , 'destroy' , 'edit']);
     Route::post('messages/replay/{id}', 'Messages@replay')->name('message.replay');
 
